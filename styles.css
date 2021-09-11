@@ -23,6 +23,10 @@ div{
     max-width: 60%;
 }
 
+header img {
+    height:25rem ;
+}
+
 textarea{
     padding-top: 0.5rem;
     text-align: center;
@@ -79,6 +83,6 @@ footer {
     color: rgb(255, 255, 255);
     border-top-right-radius: 1rem;
     border-top-left-radius: 1rem;
-    margin-top: 6.3rem;
+    margin-top: 2.25rem;
     font-size: 20px;
 }
