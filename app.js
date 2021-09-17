@@ -11,7 +11,7 @@ function errorHandling(error)
 
 function fetchInput(inputValue)
 {
-    url = "https://api.funtranslations.com/translate/shakespeare.json?text=" + inputText.value
+    url = "https://api.funtranslations.com/translate/shakespeare.json?text=" + inputValue.value
     fetch(url)
     .then(response => response.json())
     .then(function outputTranslated(json){outputText.innerText = json.contents.translated})
